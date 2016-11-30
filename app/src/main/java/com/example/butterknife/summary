@@ -1,0 +1,9 @@
+一、ButterKnife核心技术
+  1.导入jar包，添加依赖
+    compile 'com.jakewharton:butterknife:8.4.0'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.4.0'
+  2.绑定视图、valuses目录资源、监听接口（onClick、onItemClick等）、Fragment、适配器（ViewHolder）
+
+二、Android ButterKnife Zelezny插件安装及使用（可实现快速ButterKnife绑定视图、监听接口等）
+  1.File-Settings-Plugins-install安装
+  2.在视图所在的引入布局上，右击-Generate-Butterknife Injections,选择需要绑定的内容...
